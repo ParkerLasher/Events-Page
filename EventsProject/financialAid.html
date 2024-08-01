@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Events Financial Aid Workshop" />
+    <meta name="description" content="Financial Aid Workshop Sign Up" />
+    <title>Financial Aid Workshop Sign Up</title>
+    <link href="dr_base.css" rel="stylesheet" />
+    <link href="dr_layout.css" rel="stylesheet" />
+    <link href="financialAid.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <img
+        class="bannerhead"
+        src="Bucs Images/Bucs/B9318250650Z.1_20150729124736_000_GEJBFUOGT.1-0.jpg.webp"
+        alt="BreweryFX Bannerhead"
+        id="bannerhead"
+      />
+      <div class="mobile-nav-top">
+        <span class="brand-text">Bucs</span>
+      </div>
+      <button class="hamburger" aria-label="Open navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="horizontal">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="charityRun.html">Charity Run</a></li>
+          <li><a href="financialAid.html">Financial Aid</a></li>
+          <li><a href="tedX.html">TedX</a></li>
+          <li><a href="jobFair.html">Job Fair</a></li>
+          <li><a href="bakeSale.html">Bake Sale</a></li>
+          <li><a href="raffle.html">Raffle</a></li>
+          <li><a href="#">More &#x25BE;</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <h1>
+        <i><strong>Events</strong></i>
+      </h1>
+      <p><b>Sign up for the Financial Aid Workshop</b></p>
+      <div class="thumbnailDiv">
+        <img class="thumbnail" src="Bucs Images/Bucs/FinancialAid.webp" />
+      </div>
+      <p class="summary">
+        Welcome to our Bi Annual Financial Aid Workshop <br />This allows us to
+        answer any of your questions and assist you with your financail aid
+      </p>
+      <div class="containerFinancial">
+        <div class="financial">
+          <h4>Financial Aid Workshop</h4>
+          <h5>Date: 4/27/2024</h5>
+        </div>
+        <div>
+          <table id="signupTable">
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Signup Time</th>
+              <th>Term</th>
+              <th>Delete</th>
+            </tr>
+          </table>
+          <label for="name">Name:</label>
+          <input type="text" id="name" />
+          <label for="email">Email:</label>
+          <input type="text" id="email" />
+          <label for="term">Term:</label>
+          <input type="text" id="term" />
+          <button onclick="addName()">Signup</button>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>
+        <i><b class="nav-brand-footer">FSW BUCS</b></i>
+      </p>
+    </footer>
+    <script src="financialAid.js"></script>
+  </body>
+</html>

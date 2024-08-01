@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Fair Sign up</title>
+    <meta name="keywords" content="Events JobFair" />
+    <meta name="description" content="Job Fair Sign up">
+    <link href="dr_base.css" rel="stylesheet" />
+    <link href="dr_layout.css" rel="stylesheet" />
+    <link href="jobFair.css" rel="stylesheet" />
+
+</head>
+<body>
+    <header>
+        <img class="bannerhead" src="Bucs Images/Bucs/B9318250650Z.1_20150729124736_000_GEJBFUOGT.1-0.jpg.webp" alt="BreweryFX Bannerhead" id="bannerhead"/>
+        <div class="mobile-nav-top">
+            <span class="brand-text">Bucs</span>
+        </div>
+        <button class="hamburger" aria-label="Open navigation menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="horizontal">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="charityRun.html">Charity Run</a></li>
+                <li><a href="financialAid.html">Financial Aid</a></li>
+                <li><a href="tedX.html">TedX</a></li>
+                <li><a href="jobFair.html">Job Fair</a></li>
+                <li><a href="bakeSale.html">Bake Sale</a></li>
+                <li><a href="raffle.html">Raffle</a></li>
+                <li><a href="#">More &#x25BE;</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1><i><strong>Events</strong></i></h1>
+        <p><b>Sign up for the Job Fair</b></p>
+        <div class="thumbnailDiv"><img class="thumbnail" src="Bucs Images/Bucs/JobFair.webp"></div>
+        <p class="summary">This is our Bi Annual Job Fair <br> It is our goal to provide job opportunites and internships through our partnerships</p>
+        <div class="containerFair">
+            <div class="jobFair">
+                <h4>Job Fair</h4>
+                <h5>Date: 6/27/2024</h5>
+            </div>
+            <div>
+                <table id="signupTable">
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Signup Time</th>
+                        <th>Career Interest</th>
+                        <th>Delete</th>
+                    </tr>
+                </table>
+                <label for="name">Name:</label>
+                <input type="text" id="name">
+                <label for="email">Email:</label>
+                <input type="text" id="email">
+                <label for="careerInterest">Career Interest:</label>
+                <input type="text" id="careerInterest">
+                <button onclick="addName()">Signup</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p><i><b class="nav-brand-footer">FSW BUCS</b></i></p>
+    </footer>
+    <script src="jobFair.js"></script>
+
+</body>
+</html>

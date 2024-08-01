@@ -1,0 +1,188 @@
+
+/* =============================================
+	HTML5 structural elements
+   =============================================
+*/
+
+article, aside, details, dl, figcaption, figure, footer, header, main, nav, section {
+	display: block;
+}
+
+
+/* =============================================
+	Default colors, margins and sizing
+   =============================================
+*/
+
+html {
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+html, button, input, select, textarea {
+	font-family: serif;
+	color: #222;
+}
+body {
+	margin: 0;
+	font-size: 1em;
+	line-height: 1.4;
+}
+body > section > header{
+	font-size: 90px;
+	padding-left: 2%;
+	padding-top: .5%;
+}
+body > section > p{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+
+/* =============================================
+	Hypertext links
+   =============================================
+*/
+
+a {
+	color: black;
+}
+a:visited {
+	color: rgb(62, 11, 99);
+}
+a:hover {
+	color: #06e;
+}
+a:focus {
+	outline: thin dotted;
+}
+a:hover, a:active {
+	outline: 0;
+}
+
+
+/* =============================================
+	Default font styles
+   =============================================
+*/
+
+abbr[title] {
+	border-bottom: 1px dotted;
+}
+b, strong {
+	font-weight: bold;
+}
+blockquote {
+	margin: 1em 40px;
+}
+dfn {
+	font-style: italic;
+}
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+ins {
+	background: #ff9;
+	color: #000;
+	text-decoration: none;
+}
+mark {
+	background: #ff0;
+	color: #000;
+	font-style: italic;
+	font-weight: bold;
+}
+pre, code, kbd, samp {
+	font-family: monospace, serif;
+	_font-family: 'courier new', monospace;
+	font-size: 1em;
+}
+pre {
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+small {
+	font-size: 85%;
+}
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+	top: -0.5em;
+}
+sub {
+	bottom: -0.25em;
+}
+
+
+/* =============================================
+	Default list styles
+   =============================================
+*/
+
+ul, ol {
+	margin: 1em 0;
+	padding: 0 0 0 40px;
+}
+dd {
+	margin: 0 0 0 40px;
+}
+nav ul, nav ol {
+	list-style: none;
+	list-style-image: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+/* =============================================
+	Default styles for web forms
+   =============================================
+*/
+
+form {
+	margin: 0;
+}
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+label {
+	cursor: pointer;
+}
+legend {
+	border: 0;
+	padding: 0;
+	white-space: normal;
+}
+button, input, select, textarea {
+	margin: 0;
+	vertical-align: baseline;
+}
+button, input {
+	line-height: normal;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+	cursor: pointer;
+}
+button[disabled], input[disabled] {
+	cursor: default;
+}
+
+textarea {
+	overflow: auto;
+	vertical-align: top;
+	resize: vertical;
+}

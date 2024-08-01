@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raffle Event</title>
+    <meta name="keywords" content="Events Raffle" />
+    <meta name="description" content="Raffle Sign up">
+    <link href="dr_base.css" rel="stylesheet" />
+    <link href="dr_layout.css" rel="stylesheet" />
+    <link href="raffle.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <img class="bannerhead" src="Bucs Images/Bucs/B9318250650Z.1_20150729124736_000_GEJBFUOGT.1-0.jpg.webp" alt="BreweryFX Bannerhead" id="bannerhead"/>
+        <div class="mobile-nav-top">
+            <span class="brand-text">Bucs</span>
+        </div>
+        <button class="hamburger" aria-label="Open navigation menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="horizontal">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="charityRun.html">Charity Run</a></li>
+                <li><a href="financialAid.html">Financial Aid</a></li>
+                <li><a href="tedX.html">TedX</a></li>
+                <li><a href="jobFair.html">Job Fair</a></li>
+                <li><a href="bakeSale.html">Bake Sale</a></li>
+                <li><a href="raffle.html">Raffle</a></li>
+                <li><a href="#">More &#x25BE;</a>
+                    
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1><i><strong>Events</strong></i></h1>
+        <p><b>Sign up for the Raffle event</b></p>
+        <div class="thumbnailDiv"><img class="thumbnail" src="Bucs Images/Bucs/Raffle.webp"></div>
+        <p class="summary">Welcome to our Annual Raffle event that raises money for local charity organizations <br> Please use the random number generator to select a raffle ticket number for the raffle drawing</p>
+        <div class="containerRaffle">
+            <div class="raffle">
+                <h4>Raffle Event</h4>
+                <h5>Date: 10/27/2024</h5>
+            </div>
+            <div>
+                <table id="raffleTable">
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Raffle Number</th>
+                        <th>Delete</th>
+                    </tr>
+                </table>
+                <label for="name">Name:</label>
+                <input type="text" id="name">
+                <label for="email">Email:</label>
+                <input type="text" id="email">
+                <label for="raffleNumber">Raffle Number:</label>
+                <input type="text" id="raffleNumber" readonly>
+                <button type="button" id="generateNumber" onclick="generateRaffleNumber()">Number Generator</button>
+                <button type="button" onclick="addEntry()">Sign Up</button>
+            </div>
+        </div>
+    </section>
+    <footer><p><i><b class="nav-brand-footer">FSW BUCS</b></i></p></footer>
+    <script src="raffle.js"></script>
+</body>
+</html>

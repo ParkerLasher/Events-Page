@@ -1,0 +1,55 @@
+section{
+    height: 900px;
+}
+.jobFair{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containerFair{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+/* Remove the borders from the specific header */
+th.deleteColumn {
+    border: none;
+}
+  
+  /* Style for the delete button */
+.deleteBtn {
+    /* Add your button styling here */
+}
+nav.horizontal > ul > li {
+    display: block;
+    position: relative;
+    width: 12.5%;
+    float: left;
+    background-color: rgb(62, 11, 99);
+}
+nav.horizontal > ul > li > a {
+    display: block;
+}
+h4{
+    color:rgb(149, 0, 255);
+
+}
+p{
+    color: rgb(62, 11, 99);
+}
